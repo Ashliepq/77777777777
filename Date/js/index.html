@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        function checkAge() {
+            var BirthDate = prompt("لطفا تاریخ تولد خود را وارد کنید (به ترتیب سال/ماه/روز)");
+            var currentDate = new Date();
+            var age = currentDate.getFullYear() - new Date(BirthDate).getFullYear();
+
+            if (age >= 18) {
+                alert("okkkkkkk");
+            } else {
+                alert("nooooooo");
+            }
+        }
+        checkAge();
+    </script>
+
+
+</body>
+
+</html>
