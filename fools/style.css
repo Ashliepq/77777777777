@@ -1,0 +1,141 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*فونت*/
+@font-face {
+  font-family: 'yekan';
+  src: url(fonts/Yekan.eot);
+  src: url(fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(fonts/Yekan.woff) format("woff"), url(fonts/Yekan.ttf) format("truetype"), url(fonts/Yekan.svg#BYekan) format("svg");
+  font-weight: normal;
+  font-style: normal
+}
+/*سرتیتر*/
+#top-bar {
+  font-family: 'yekan';
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: x-large;
+}
+/*نوار عنوان سایت*/
+#rtl-bar {
+  font-family: 'yekan';
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #02085a;
+}
+
+#rtl-bar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#rtl-bar a:hover {
+  color: #333333;
+  transition: .3s;
+}
+
+header {
+  background-color: #02085a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: #02085a;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #333333;
+  transition: .3s;
+}
+/*نوار کشویی محصولات*/
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img1 {
+  width: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #4b4a4a;
+  text-align: center;
+}
+.color{
+  color: #000000;
+  font-family: 'yekan';
+}
+
+.ferst-slide {
+  background-color: #c4c4c4;
+}
+
+.product {
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 0.2px solid #EEEDED;
+  border-radius: 20px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin-bottom: 5px;
+}
+/*دکمه ها*/
+button {
+  font-family: 'yekan';
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+/*راه های ازتباطی*/
+h5{
+  text-align: center;
+}
+.img2{
+  width: 75px;
+  height: 100%;
+  margin-left: 200px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*پانویس*/
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 40px;
+  margin: 0px;
+  text-align: center;
+}
